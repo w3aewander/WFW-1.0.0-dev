@@ -1,0 +1,164 @@
+/* line 1, ../sass/app.sass */
+
+$altura_conteudo: 850px;
+
+body {
+margin: 0 auto;
+background: #18b;
+}
+
+h1 {
+font-size: 150%;
+
+
+}
+h2 {
+font-size: 100%;
+}
+
+.container {
+position: relative;
+background: #fff;
+
+
+ .topo{
+ display: block;
+ padding: 10px 10px;
+ margin: 0 auto;
+ height: 180px;
+   background: url(../imagens/banner_topo.png) no-repeat center top;
+   background-size: 100%;
+ }
+
+    .titulo{
+       display: block;
+       position: absolute;
+       top: 50px;
+       width: 250px;
+       right: 40px;
+       padding: 20px;
+       background: #888; 
+       color: #fff;  
+       font-size: 200%;
+   }
+   .slogan {
+       display: block;
+       position: absolute;
+       top: 120px;
+       right: 40px;
+       margin: 0;
+       width: 250px;
+       padding: 15px;
+       background: #090890;
+       color: #fff;
+
+   }
+}
+a {
+text-decoration: none;
+}
+
+aside{
+
+  height: $altura_conteudo;
+}
+
+nav { 
+display: block;
+height: 120px;
+position: relative;
+padding: 5px 5px;
+background: rgba(200,200,250,.40);
+
+.circulo {
+display: block;
+padding: 35px;
+border: 1px inset #ccc;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+text-align: center;
+background-color: #fff ;
+background-position: center center;
+float: right;
+cursor: pointer;
+
+&:hover{
+border: 1px outset #fff;  
+background-color: #444; 
+}
+
+&:active{
+border: 3px outset #fff;  
+}
+
+}
+
+.circulo-sobre{
+display: block;
+position: absolute;
+top: 0;
+left: 5px;
+width: 400px;
+height: 100%;
+/* border: 1px inset #ccc; */
+/* border-radius: 50%; */
+/* background-color: #fff; */
+cursor: pointer;
+float: left;
+z-index: 9999;
+
+}
+
+.inline {
+display: inline-block;
+}
+
+
+}
+
+.sobre-icon{
+background: url(../imagens/logo_wscom.png) no-repeat;
+background-position: center center;
+background-size: 120%;
+}
+.php5-icon {
+background: url(../imagens/none.png) no-repeat center center;
+background-size: 85%;
+}
+.html5-icon{
+background: url(../imagens/html5.png) no-repeat center center;
+background-size: 85%;
+}
+.css3-icon{
+background: url(../imagens/css3.png) no-repeat center center;
+background-size: 85%;
+}
+.js-icon{
+background: url(../imagens/js.png) no-repeat center center;
+background-size: 65%;
+
+}
+
+#content {
+display: block;
+height: $altura_conteudo;
+overflow-y: scroll;
+
+section {
+
+ h1 {
+ 
+     color: #000;
+    
+} 
+ 
+ h2  {
+
+    color: #555;
+
+}
+
+}
+
+}
