@@ -13,10 +13,13 @@ use \Core\View\TemplateWFW as Template;
 class ArtigosController extends \Core\Controller\Controller {
 
 	private $template;
-
+        protected $artigos;
+        
 	public function __construct() {
 		parent::__construct();
 		$this->template = new Template("../View/home.tpl");
+                $this->artigos = new \App\Model\Artigo();
+                
 	}
 
 	public function index() {

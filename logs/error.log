@@ -536,3 +536,153 @@ PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
 [Mon Nov 02 19:03:56 2015] [error] [client 10.0.2.2] PHP Warning:  file_put_contents(45be7d63206685f03e78fa0ff4d16ffc_home.tpl): failed to open stream: Permission denied in /var/www/src/Core/View/TemplateWFW.php on line 47
 [Mon Nov 02 19:03:56 2015] [error] [client 10.0.2.2] PHP Warning:  require_once(45be7d63206685f03e78fa0ff4d16ffc_home.tpl): failed to open stream: No such file or directory in /var/www/src/Core/View/TemplateWFW.php on line 48
 [Mon Nov 02 19:03:56 2015] [error] [client 10.0.2.2] PHP Fatal error:  require_once(): Failed opening required '45be7d63206685f03e78fa0ff4d16ffc_home.tpl' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/src/Core/View/TemplateWFW.php on line 48
+[Mon Nov 02 20:38:07 2015] [error] [client 10.0.2.2] PHP Warning:  require(../Config/config.php): failed to open stream: No such file or directory in /var/www/src/App/public/index.php on line 27, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:38:07 2015] [error] [client 10.0.2.2] PHP Fatal error:  require(): Failed opening required '../Config/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/src/App/public/index.php on line 27, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:38:07 2015] [error] [client 10.0.2.2] PHP Warning:  require(../Config/config.php): failed to open stream: No such file or directory in /var/www/src/App/public/index.php on line 27, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:38:07 2015] [error] [client 10.0.2.2] PHP Fatal error:  require(): Failed opening required '../Config/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/src/App/public/index.php on line 27, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:07 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:52 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:53 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:54 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:54 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:54 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:54 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:39:55 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected '[' in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:48:29 2015] [error] [client 10.0.2.2] PHP Fatal error:  Undefined class constant 'DSN' in /var/www/src/App/Model/Connection.php on line 35, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Notice:  Use of undefined constant APP_CONFIG_DB - assumed 'APP_CONFIG_DB' in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Warning:  Illegal string offset 'options' in /var/www/src/App/Model/Connection.php on line 33, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Warning:  Illegal string offset 'dsn' in /var/www/src/App/Model/Connection.php on line 36, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Warning:  Illegal string offset 'user' in /var/www/src/App/Model/Connection.php on line 37, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Warning:  Illegal string offset 'pass' in /var/www/src/App/Model/Connection.php on line 38, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:53:41 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, string given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:54:31 2015] [error] [client 10.0.2.2] PHP Fatal error:  Undefined constant 'APP_CONFIG_DB' in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:55:28 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: APP_CONFIG_DB in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 20:55:28 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;config.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 23, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 23, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:04:53 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:05:45 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:06:37 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:06:38 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:23 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:25 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:25 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:26 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:42 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:43 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:43 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:43 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:44 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:44 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:44 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:08:44 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:09:09 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:09:10 2015] [error] [client 10.0.2.2] PHP Warning:  PDO::__construct() expects parameter 4 to be array, object given in /var/www/src/App/Model/Connection.php on line 40, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:09:52 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:09:53 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:10:31 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:10:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:10:33 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:10:34 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:10:34 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined property: PDOException::$getMessage in /var/www/src/App/Model/Connection.php on line 45, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:12:17 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Model/Connection.php on line 39, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;/var/www/src/App/Config/data.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:44 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;/var/www/src/App/Config/data.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;/var/www/src/App/Config/data.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:45 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;/var/www/src/App/Config/data.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;/var/www/src/App/Config/data.xml&quot; in /var/www/src/App/Config/Config.php on line 18, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 20, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:14:46 2015] [error] [client 10.0.2.2] PHP Notice:  Trying to get property of non-object in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:23:09 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: dsn in /var/www/src/App/Config/Config.php on line 21, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:23:09 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: user in /var/www/src/App/Config/Config.php on line 22, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:23:09 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: pass in /var/www/src/App/Config/Config.php on line 23, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:30:31 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:30:33 2015] [error] [client 10.0.2.2] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:33:04 2015] [error] [client 10.0.2.2] PHP Fatal error:  Class 'Config' not found in /var/www/src/App/Model/Connection.php on line 32, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:33:05 2015] [error] [client 10.0.2.2] PHP Fatal error:  Class 'Config' not found in /var/www/src/App/Model/Connection.php on line 32, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:33:16 2015] [error] [client 10.0.2.2] PHP Fatal error:  Cannot use object of type App\\Config\\Config as array in /var/www/src/App/Model/Connection.php on line 35, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:37:53 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to undefined method App\\Config\\Config::getConfig() in /var/www/src/App/Config/Config.php on line 42, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:37:54 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to undefined method App\\Config\\Config::getConfig() in /var/www/src/App/Config/Config.php on line 42, referer: http://localhost:8080/artigos
+[Mon Nov 02 21:51:05 2015] [error] [client 10.0.2.2] PHP Notice:  Array to string conversion in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 21:51:53 2015] [error] [client 10.0.2.2] PHP Notice:  Array to string conversion in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 21:53:00 2015] [error] [client 10.0.2.2] PHP Notice:  Array to string conversion in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 22:00:30 2015] [error] [client 10.0.2.2] PHP Notice:  Array to string conversion in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 22:01:09 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: options in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 22:01:23 2015] [error] [client 10.0.2.2] PHP Notice:  Array to string conversion in /var/www/src/App/Model/Connection.php on line 34, referer: http://localhost:8080/
+[Mon Nov 02 22:04:30 2015] [error] [client 10.0.2.2] PHP Fatal error:  Class 'App\\Model\\PDO' not found in /var/www/src/App/Model/Connection.php on line 33, referer: http://localhost:8080/
+[Mon Nov 02 22:22:47 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:22:47 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:24 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:25 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:26 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:26 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:26 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: config in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:23:26 2015] [error] [client 10.0.2.2] PHP Fatal error:  Call to a member function getOptions() on a non-object in /var/www/src/App/Model/Connection.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: dsn in /var/www/src/App/Config/Config.php on line 43, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: user in /var/www/src/App/Config/Config.php on line 47, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: pass in /var/www/src/App/Config/Config.php on line 51, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:29 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: options in /var/www/src/App/Config/Config.php on line 55, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: dsn in /var/www/src/App/Config/Config.php on line 43, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: user in /var/www/src/App/Config/Config.php on line 47, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: pass in /var/www/src/App/Config/Config.php on line 51, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined variable: options in /var/www/src/App/Config/Config.php on line 31, referer: http://localhost:8080/
+[Mon Nov 02 22:35:32 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: options in /var/www/src/App/Config/Config.php on line 55, referer: http://localhost:8080/
+[Mon Nov 02 22:47:38 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: dsn in /var/www/src/App/Config/Config.php on line 37, referer: http://localhost:8080/
+[Mon Nov 02 22:47:38 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: user in /var/www/src/App/Config/Config.php on line 41, referer: http://localhost:8080/
+[Mon Nov 02 22:47:38 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: pass in /var/www/src/App/Config/Config.php on line 45, referer: http://localhost:8080/
+[Mon Nov 02 22:54:30 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: pass in /var/www/src/App/Config/Config.php on line 44, referer: http://localhost:8080/
+[Mon Nov 02 22:54:31 2015] [error] [client 10.0.2.2] PHP Notice:  Undefined index: pass in /var/www/src/App/Config/Config.php on line 44, referer: http://localhost:8080/

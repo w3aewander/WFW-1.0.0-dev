@@ -24,7 +24,6 @@ ini_set("display_errors", E_ALL);
 
 //Autoloader - padrao PSR-4
 require '../../../vendor/autoload.php';
-require '../Config/config.php';
 require '../../../bootstrap.php';
 
 $html = new \Core\View\Html;

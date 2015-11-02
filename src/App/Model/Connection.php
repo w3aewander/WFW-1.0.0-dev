@@ -13,15 +13,17 @@ namespace App\Model;
  *
  * @author wanderlei
  */
+use App\Config\Config as Config;
+
 class Connection {
 
-    private $bd = "mysql:host=localhost;dbname=restaurante";
-    private $dbuser = "restaurante";
-    private $dbpass = "12qwaszx";
-    private $conn = NULL;
-
+    private $conn = null;
+    private $config = null;
+    
     public function __construct() {
 
+        $this->config = new Config();
+        
         if (!$this->conn = $this->getConnection()):
             die("Não foi possível conectar o banco de dados.");
         endif;
@@ -29,15 +31,29 @@ class Connection {
 
     public function getConnection() {
         try {
+
+
+            $dsn =  $this->config->getDsn();
+            $user = $this->config->getUser();
+            $pass = $this->config->getPass();
             
-            $options = [ \PDO::ATTR_PERSISTENT  => true, \PDO::ATTR_AUTOCOMMIT => true,/**\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION**/ ];
             
-            $this->conn = new \PDO($this->bd, $this->dbuser, $this->dbpass, $options);
+            //$dsn = "mysql:host=localhost;port=3306;dbname=wfw";
+            //$user = "wfw";
+            //$pass = "wfw123";
+
+            $this->conn = new \PDO(
+                    $dsn, $user, $pass, $this->config->getOptions()
+            );
 
             return $this->conn;
-            
         } catch (\PDOException $e) {
-            die($e->getMessage);
+
+            die(sprintf("Erro no arquivo: %s<br>Linha: %s<br>Erro: %s<br>",
+                   $e->getLine(),
+                   $e->getFile(),
+                   $e->getMessage() )
+            );
         }
     }
 

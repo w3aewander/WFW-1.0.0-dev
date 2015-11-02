@@ -67,7 +67,7 @@ class Orm {
 
     /**
      * Exclui a tabela informada em $table_name
-     * @param $conn PDOConnection, $table_name string
+     * @param $table_name PDOConnection, $table_name string
      * @return
      * */
     public function drop_table($table_name) {
