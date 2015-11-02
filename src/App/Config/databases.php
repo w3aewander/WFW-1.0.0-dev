@@ -7,10 +7,11 @@
  * 
  */
 //Faz os requires necessarios para uso com o ORM
+
 $_config = [
-    'dsn' => 'mysql:host=localhost;dbname=restaurante',
-    'user' => 'restaurante',
-    'pass' => '12qwaszx',
+    'dsn' => 'sqlite:/../../db/wfw.db',
+    'user' => null,
+    'pass' => null,
     'options' => [\PDO::ATTR_PERSISTENT => true],
 ];
 

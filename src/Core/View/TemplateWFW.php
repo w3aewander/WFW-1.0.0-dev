@@ -43,7 +43,7 @@ class TemplateWFW {
 		$$key = $value;
 		endforeach;
 
-		$tmp_file = '../../pages_compileds/'.session_id()."_".basename($this->template);
+		$tmp_file =   '/tmp/'.session_id()."_".basename($this->template);
 		file_put_contents($tmp_file, $out);
 		require_once ($tmp_file);
 	}
