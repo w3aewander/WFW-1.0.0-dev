@@ -1,4 +1,4 @@
-nbproject
-logs/*
+/nbproject
+/logs/*
 /nbproject/private/
-.gitignore
+/.gitignore
