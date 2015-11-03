@@ -12,4 +12,7 @@ and open the template in the editor.
             user="wfw"
             pass="wfw123">
     </app_config_db>
+    <app_config_version>
+        wfw-1.0.0-2015-11-02-alpha-dev
+    </app_config_version>
 </config>

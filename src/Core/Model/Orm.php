@@ -321,8 +321,9 @@ class Orm {
     public function show_all($where = "") {
 
         $sql = sprintf("select * from `%s` %s ", $this->getEntity(), $where);
-        $all = $this->conn->query($sql, \PDO::FETCH_OBJ);
-
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        $all = $stmt->fetchAll(\PDO::FETCH_OBJ);
         return $all;
     }
 

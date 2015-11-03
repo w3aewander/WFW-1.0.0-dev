@@ -1,26 +1,37 @@
 /* line 1, ../sass/app.sass */
-/* line 5, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
+html, body {
+  font-size: 95%;
+  background: #fff;
+}
+
+/* line 11, ../sass/app.scss */
 body {
   margin: 0 auto;
-  background: #18b;
+  background: #fff;
 }
 
-/* line 10, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
+.body-tpl {
+  background-color: #5f87ab;
+}
+
+/* line 21, ../sass/app.scss */
 h1 {
-  font-size: 150%;
+  font-size: 130%;
 }
 
-/* line 15, ../sass/app.scss */
+/* line 26, ../sass/app.scss */
 h2 {
-  font-size: 100%;
+  font-size: 110%;
 }
 
-/* line 19, ../sass/app.scss */
+/* line 30, ../sass/app.scss */
 .container {
   position: relative;
   background: #fff;
 }
-/* line 24, ../sass/app.scss */
+/* line 35, ../sass/app.scss */
 .container .topo {
   display: block;
   padding: 10px 10px;
@@ -29,7 +40,7 @@ h2 {
   background: url(../imagens/banner_topo.png) no-repeat center top;
   background-size: 100%;
 }
-/* line 33, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 .container .titulo {
   display: block;
   position: absolute;
@@ -41,7 +52,7 @@ h2 {
   color: #fff;
   font-size: 200%;
 }
-/* line 44, ../sass/app.scss */
+/* line 55, ../sass/app.scss */
 .container .slogan {
   display: block;
   position: absolute;
@@ -54,17 +65,17 @@ h2 {
   color: #fff;
 }
 
-/* line 57, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 a {
   text-decoration: none;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 aside {
   height: 850px;
 }
 
-/* line 66, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 nav {
   display: block;
   height: 120px;
@@ -72,7 +83,7 @@ nav {
   padding: 5px 5px;
   background: rgba(200, 200, 250, 0.4);
 }
-/* line 73, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 nav .circulo {
   display: block;
   padding: 35px;
@@ -86,16 +97,16 @@ nav .circulo {
   float: right;
   cursor: pointer;
 }
-/* line 86, ../sass/app.scss */
+/* line 97, ../sass/app.scss */
 nav .circulo:hover {
   border: 1px outset #fff;
-  background-color: #444;
+  background-color: #4b6ae2;
 }
-/* line 91, ../sass/app.scss */
+/* line 102, ../sass/app.scss */
 nav .circulo:active {
   border: 3px outset #fff;
 }
-/* line 97, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 nav .circulo-sobre {
   display: block;
   position: absolute;
@@ -110,53 +121,58 @@ nav .circulo-sobre {
   float: left;
   z-index: 9999;
 }
-/* line 113, ../sass/app.scss */
+/* line 124, ../sass/app.scss */
 nav .inline {
   display: inline-block;
 }
 
-/* line 120, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 .sobre-icon {
   background: url(../imagens/logo_wscom.png) no-repeat;
   background-position: center center;
   background-size: 120%;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 136, ../sass/app.scss */
 .php5-icon {
   background: url(../imagens/none.png) no-repeat center center;
   background-size: 85%;
 }
 
-/* line 129, ../sass/app.scss */
+/* line 140, ../sass/app.scss */
 .html5-icon {
   background: url(../imagens/html5.png) no-repeat center center;
   background-size: 85%;
 }
 
-/* line 133, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 .css3-icon {
   background: url(../imagens/css3.png) no-repeat center center;
   background-size: 85%;
 }
 
-/* line 137, ../sass/app.scss */
+/* line 148, ../sass/app.scss */
 .js-icon {
   background: url(../imagens/js.png) no-repeat center center;
   background-size: 65%;
 }
 
-/* line 143, ../sass/app.scss */
+/* line 154, ../sass/app.scss */
 #content {
   display: block;
   height: 850px;
   overflow-y: scroll;
 }
-/* line 150, ../sass/app.scss */
+/* line 161, ../sass/app.scss */
 #content section h1 {
-  color: #000;
+  color: #03004f;
 }
-/* line 156, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 #content section h2 {
-  color: #555;
+  color: #a81911;
+}
+
+/* line 178, ../sass/app.scss */
+.well-dashboard {
+  background: #a69999;
 }

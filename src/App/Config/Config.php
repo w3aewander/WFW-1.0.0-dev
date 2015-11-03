@@ -12,14 +12,26 @@
 namespace App\Config;
 
 class Config {
-
+    
+   private $xml = "";
+   
+   /**
+    * Construtor padrão do sistema
+    */
+   public function __construct() {
+       $this->xml = simplexml_load_file("../Config/config.xml");
+   }
+    /**
+     * Retorna um array de parametros para o PDO de conexão com a base de dados
+     * @return array
+     */
     private function getConfigDB() {
         try {
-            $xml = simplexml_load_file(__DIR__ . "/database.xml");
+            
 
             $params = [];
 
-            $attr = $xml->app_config_db;
+            $attr = $this->xml->app_config_db;
 
             $params["dsn"] = $attr["dsn"];
             $params["user"] = $attr["user"];
@@ -33,24 +45,52 @@ class Config {
         }
     }
 
+    /**
+     * Retorna a string de conexão com a base de dados
+     * @return string
+     */
     public function getDsn() {
         return $this->getConfigDB()["dsn"];
     }
 
+    /**
+     * Retorna o o nome de usuário de acesso a base de dados.
+     * @return string
+     */
     public function getUser() {
         return $this->getConfigDB()["user"];
     }
 
+    /**
+     * Retorna a senha de acesso para a base de dados
+     * @return string 
+     */
     public function getPass() {
         return $this->getConfigDB()["pass"];
     }
 
+    /**
+     * Retorna atributos opcionais armazenados no arquivo xml para a conexão PDO atual.
+     * @return array
+     */
     public function getOptions() {
         return $this->getConfigDB()["options"];
     }
 
+    /**
+     * REtorna a versão atual do sistema
+     * @return string
+     * 
+     */
     protected function getConfigAppVersion() {
-        return $APP_CONFIG_VERSION;
+        
+        return $this->xml->app_config_version;
     }
 
+    /**
+     * Destrutor padrão da classe
+     */
+    public function __destruct(){
+        $this->xml = null;
+    }
 }

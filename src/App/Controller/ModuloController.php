@@ -21,7 +21,7 @@ class ModuloController extends \Core\Controller\Controller {
 		parent::__construct();
 
 		$this->template         = new Template('../View/modulos/modulo_php.tpl');
-		$this->data["flashmsg"] = "Módulo Tutoria PHP OO";
+		$this->data["flashmsg"] = "Módulo Tutorial PHP OO";
 
 	}
 

@@ -26,9 +26,6 @@ ini_set("display_errors", E_ALL);
 require '../../../vendor/autoload.php';
 require '../../../bootstrap.php';
 
-$html = new \Core\View\Html;
-echo $html->open();
-
 //Exibe o controller com os parametros enviado pelo argumento
 printf("%s", $x->$action($parm1, $parm2));
-echo $html->close(0);
+

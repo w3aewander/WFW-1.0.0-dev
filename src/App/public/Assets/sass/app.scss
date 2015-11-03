@@ -1,19 +1,30 @@
 /* line 1, ../sass/app.sass */
 
 $altura_conteudo: 850px;
+$font_size_default: 95%;
+$background_tpl_default: #5f87ab;
 
+html,body{
+    font-size: $font_size_default;
+    background: #fff;
+}
 body {
 margin: 0 auto;
-background: #18b;
+background: #fff;
+
+}
+
+.body-tpl{
+ background-color: $background_tpl_default;  
 }
 
 h1 {
-font-size: 150%;
+font-size: 130%;
 
 
 }
 h2 {
-font-size: 100%;
+font-size: 110%;
 }
 
 .container {
@@ -85,7 +96,7 @@ cursor: pointer;
 
 &:hover{
 border: 1px outset #fff;  
-background-color: #444; 
+background-color: #4b6ae2; 
 }
 
 &:active{
@@ -149,16 +160,21 @@ section {
 
  h1 {
  
-     color: #000;
+     color: #03004f;
     
 } 
  
  h2  {
 
-    color: #555;
+    color: #a81911;
+
+}
+
 
 }
 
 }
 
+.well-dashboard {
+    background: #a69999;
 }
