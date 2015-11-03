@@ -1,1 +1,4 @@
+nbproject
+logs/*
 /nbproject/private/
+.gitignore
