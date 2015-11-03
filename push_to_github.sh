@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env /bin/bash
 #
 # Executar push para repositório github remoto
 #
