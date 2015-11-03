@@ -8,6 +8,10 @@
 
 REMOTO="https://github.com/w3aewander/WFW-1.0.0-dev"
  
-[[ -n $1 ]] &&  git add --all && git commit -m $1 && git push $REMOTO || echo "Push não executado"
+if [[ -n $1 ]]; then
+    git add --all && git commit -m "$1" && git push $REMOTO 
+else
+  echo "Push não executado"
+fi
 
 #Fim 
