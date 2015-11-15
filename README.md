@@ -66,7 +66,9 @@ O sistema deve ser executado a partir do diretório src/App/public.
 Para isso, vá até o seu terminal/Console ou Prompt de comando, caso esteja no Windows e digite o comando:
 php -S 0.0.0.0:8080 -t ./
 
-Acesse o terminal e...
+####Acesse pelo navegador Chrome preferencialmente, pois está sendo testado neste browser primeiro:
+http://localhost:8080
 
-###Pronto!
+
+######Pronto!
 
