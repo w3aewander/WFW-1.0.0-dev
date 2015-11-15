@@ -7,14 +7,14 @@ Deve ser criado um banco de dados com o nome 'wfw' no seu SGBD MySQL de acordo c
 #Via terminal:
 mysql -u root -p
 
-#Entre com sua senha de administrador, caso tenha. 
+##Entre com sua senha de administrador, caso tenha. 
 Se não necessitar de senha:
 mysql -u root
 
-#Depois que acessar o console do MySQL entre os comandos:
+##Depois que acessar o console do MySQL entre os comandos:
 create database wfw
 
-#Definir privilégios para o usuário recém criado:
+##Definir privilégios para o usuário recém criado:
 grant all privileges on wfw.* to 'wfw' idendified by 'wfw123';
 (claro que a senha você deverá alterar de acordo com sua preferência)
 
@@ -23,14 +23,14 @@ flush privileges
 
 Agora, simplesmente saia do console MySQL
 
-#Configurar o acesso:
+##Configurar o acesso:
 
 Acesse o arquivo XML de configuração no caminho relativo ao seu site:
 src/App/Config/config.xml
 
 E defina as configurações de acesso de acordo.
 
-#Segue um exemplo padrão:
+##Segue um exemplo padrão:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
@@ -53,7 +53,7 @@ and open the template in the editor.
 Todo o resto é feito usando convenções.
 Um ORM básico foi criado para gerenciar criação e manipulação de dados no sistema.
 
-#Pronto!
+##Pronto!
 Só isso é necessário para que o sistema reconheça o banco.
 
 
