@@ -36,25 +36,24 @@ src/App/Config/config.xml
 E defina as configurações de acesso de acordo.
 
 ####Segue um exemplo padrão:
-/**
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<config>
-    <app_config_db 
-            dsn="mysql:host=localhost;port=3306;dbname=wfw"
-            user="wfw"
-            pass="wfw123">
-    </app_config_db>
-    <app_config_version>
-        wfw-1.0.0-2015-11-02-alpha-dev
-    </app_config_version>
-</config>
 
-**/
+######<?xml version="1.0" encoding="UTF-8"?>
+######<!--
+######To change this license header, choose License Headers in Project Properties.
+######To change this template file, choose Tools | Templates
+######and open the template in the editor.
+######-->
+######<config>
+######    <app_config_db 
+######            dsn="mysql:host=localhost;port=3306;dbname=wfw"
+######            user="wfw"
+######            pass="wfw123">
+######    </app_config_db>
+######    <app_config_version>
+######        wfw-1.0.0-2015-11-02-alpha-dev
+######    </app_config_version>
+######</config>
+
 
 Todo o resto é feito usando convenções.
 Um ORM básico foi criado para gerenciar criação e manipulação de dados no sistema.
