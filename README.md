@@ -47,22 +47,31 @@ E defina as configurações de acesso de acordo.
 ####### and open the template in the editor.
 ####### -->
 ####### <config>
+  
 #######    <app_config_db 
+
 #######            dsn="mysql:host=localhost;port=3306;dbname=wfw"
+
 #######            user="wfw"
+
 #######            pass="wfw123">
+
 #######    </app_config_db>
+
 #######    <app_config_version>
+
 #######        wfw-1.0.0-2015-11-02-alpha-dev
+
 #######    </app_config_version>
+
 ####### </config>
-######
+
 ######
 
-Todo o resto é feito usando convenções.
-Um ORM básico foi criado para gerenciar criação e manipulação de dados no sistema.
+> Todo o resto é feito usando convenções.
+> Um ORM básico foi criado para gerenciar criação e manipulação de dados no sistema.
 
-Só isso é necessário para que o sistema reconheça o banco.
+> Só isso é necessário para que o sistema reconheça o banco.
 
 ### Executando o sistema
 O sistema deve ser executado a partir do diretório src/App/public.
