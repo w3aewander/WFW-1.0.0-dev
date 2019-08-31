@@ -35,22 +35,22 @@ flush privileges
 
 Agora, simplesmente saia do console MySQL
 
-###Configurar o acesso:
+### Configurar o acesso:
 
 Acesse o arquivo XML de configuração no caminho relativo ao seu site:
 src/App/Config/config.xml
 
 E defina as configurações de acesso de acordo.
 
-####Segue um exemplo padrão:
+#### Segue um exemplo padrão:
 
-######<?xml version="1.0" encoding="UTF-8"?>
-#######<!--
-#######To change this license header, choose License Headers in Project Properties.
-#######To change this template file, choose Tools | Templates
-#######and open the template in the editor.
-#######-->
-#######<config>
+###### <?xml version="1.0" encoding="UTF-8"?>
+####### <!--
+####### To change this license header, choose License Headers in Project Properties.
+####### To change this template file, choose Tools | Templates
+####### and open the template in the editor.
+####### -->
+####### <config>
 #######    <app_config_db 
 #######            dsn="mysql:host=localhost;port=3306;dbname=wfw"
 #######            user="wfw"
@@ -59,7 +59,7 @@ E defina as configurações de acesso de acordo.
 #######    <app_config_version>
 #######        wfw-1.0.0-2015-11-02-alpha-dev
 #######    </app_config_version>
-#######</config>
+####### </config>
 ######
 ######
 
@@ -68,13 +68,13 @@ Um ORM básico foi criado para gerenciar criação e manipulação de dados no s
 
 Só isso é necessário para que o sistema reconheça o banco.
 
-###Executando o sistema
+### Executando o sistema
 O sistema deve ser executado a partir do diretório src/App/public.
 Para isso, vá até o seu terminal/Console ou Prompt de comando, caso esteja no Windows e digite o comando:
 php -S 0.0.0.0:8080 -t ./
 
-####Acesse pelo navegador Chrome preferencialmente, pois está sendo testado neste browser primeiro:
+#### Acesse pelo navegador Chrome preferencialmente, pois está sendo testado neste browser primeiro:
 http://localhost:8080
 
 
-######Pronto!
+###### Pronto!
