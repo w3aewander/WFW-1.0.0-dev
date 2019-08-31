@@ -1,14 +1,10 @@
 WFW-1.0.0-dev
--------------
+=============
+>Framework em desenvolvimento na linguagem PHP 
 
-Framework em desenvolvimento na linguagem PHP 
-=============================================
+### Versão do Framework
+> Versão: 1.0.0-dev-alpha
 
-Versão do Framework
-===================
-
-versão: 1.0.0-dev-alpha
-=======================
 
 
 ## Requisitos:
