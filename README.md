@@ -11,26 +11,26 @@ versão: 1.0.0-dev-alpha
 =======================
 
 
-##Requisitos:
+## Requisitos:
 Linguagem PHP5.5.9 ou superior
 
 Deve ser criado um banco de dados com o nome 'wfw' no seu SGBD MySQL de acordo com seu sistema operacional da seguinte forma:
 
-###Configuração via terminal/Console:
+### Configuração via terminal/Console:
 mysql -u root -p
 
-####Entre com sua senha de administrador, caso tenha. 
+#### Entre com sua senha de administrador, caso tenha. 
 Se não necessitar de senha:
 mysql -u root
 
-###Depois que acessar o console do MySQL entre os comandos:
+### Depois que acessar o console do MySQL entre os comandos:
 create database wfw
 
-####Definir privilégios para o usuário recém criado:
+#### Definir privilégios para o usuário recém criado:
 grant all privileges on wfw.* to 'wfw' idendified by 'wfw123';
 (claro que a senha você deverá alterar de acordo com sua preferência)
 
-####Validar privilégios
+#### Validar privilégios
 flush privileges
 
 Agora, simplesmente saia do console MySQL
