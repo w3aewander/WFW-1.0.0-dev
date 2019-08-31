@@ -1,11 +1,9 @@
 WFW-1.0.0-dev
 =============
->Framework em desenvolvimento na linguagem PHP 
+> Framework em desenvolvimento na linguagem PHP 
 
 ### Versão do Framework
 > Versão: 1.0.0-dev-alpha
-
-
 
 ## Requisitos:
 Linguagem PHP5.5.9 ou superior
@@ -42,13 +40,13 @@ E defina as configurações de acesso de acordo.
 
 ###### <?xml version="1.0" encoding="UTF-8"?>
 
-####### <!--
- 
-To change this license header, choose License Headers in Project Properties.
-to change this template file, choose Tools | Templates
-and open the template in the editor.
+ <!--
+  To change this license header, choose License Headers in Project Properties.
+  to change this template file, choose Tools | Templates
+  and open the template in the editor.
 -->
- <config>
+
+    <config>
   
     <app_config_db 
 
@@ -66,8 +64,6 @@ and open the template in the editor.
 
        </app_config_version>
     </config>
-
-######
 
 > Todo o resto é feito usando convenções.
 > Um ORM básico foi criado para gerenciar criação e manipulação de dados no sistema.
